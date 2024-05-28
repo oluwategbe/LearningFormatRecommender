@@ -1,0 +1,100 @@
+.orderCard {
+  display: flex;
+  flex-direction: column;
+}
+.orderCard .top {
+  display: flex;
+  padding: 1rem;
+  background: #e7e7e7;
+  justify-content: space-between;
+}
+.orderCard .top .left {
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.orderCard .imgCont {
+  max-width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+.imgCont img {
+  object-fit: contain;
+  width: 100%;
+}
+.orderCard .orderDet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.orderCard .orderDet h1 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.orderCard .orderDet p {
+  font-size: 12px;
+  color: #acacac;
+}
+.orderCard .orderDet p span {
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+.orderCard .items {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.orderCard .items .box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.items .box h2 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.items .box input {
+  padding: 5px;
+  border: 1px solid #cfcfcf;
+  outline: none;
+  font-size: 12px;
+  width: 50px;
+  background: transparent;
+}
+/* .orderDet .status{
+  padding: 10px;
+  width: fit-content;
+} */
+.orderCard .options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* width: 100%; */
+  align-items: flex-end;
+}
+.orderCard .options p {
+  color: #0266d5;
+  text-decoration: underline;
+  cursor: pointer;
+  align-items: flex-end;
+}
+.orderCard .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #333333;
+}
+.orderBottom h3 {
+  font-size: 11px;
+  color: #8d8d8d;
+}
+.orderBottom p {
+  color: white;
+  font-size: 11px;
+}

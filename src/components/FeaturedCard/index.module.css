@@ -1,0 +1,103 @@
+.featuredWrapper {
+  width: calc(50% - 0.5rem);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.featuredHeader {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featuredDiscount,
+.featuredStatus {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.featuredDiscount {
+  background-color: #c80016;
+}
+
+.featuredStatus {
+  background-color: #0266d5;
+}
+
+.featuredDiscount p,
+.featuredStatus p {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+}
+
+.featuredContent {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuredContent img {
+  width: 6rem;
+  object-fit: contain;
+}
+
+.sub {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  color: #757575;
+  margin-bottom: 5px;
+}
+
+.featuredContent h3 {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #0266d5;
+}
+
+.productPrice {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+.productPrice span {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #c80016;
+  text-decoration: line-through;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  gap: 1rem;
+}

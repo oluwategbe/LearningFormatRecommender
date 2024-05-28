@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.sectionOne {
+  background-image: url("../../../assets/bearded-man-browsing-his-mobile-phone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+.sectionOne div {
+  position: absolute;
+  top: 16rem;
+  left: 7rem;
+}
+
+.sectionOne h3 {
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+
+.sectionTwo {
+  background-color: #ffffff;
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.lotusLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.lotusLogo img {
+  width: 201px;
+  height: 67px;
+}
+
+.codeText {
+  margin-bottom: 2rem;
+}
+
+.codeText p {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBlock {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.codeField {
+  width: 90px;
+  height: 54px;
+  border: none;
+  border-bottom: 0.5px solid #757575;
+  border-radius: 0px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.codeField::placeholder {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.codeField:focus {
+  border: none;
+  border-bottom: 0.5px solid #757575;
+  outline: none;
+  border-radius: 0px;
+  background-color: #ffffff;
+}
+
+.btnsContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+Button.codeBtn {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 7px;
+  background-color: #c80016;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 3.1rem;
+  width: 14rem;
+}
+
+Button.loginBtn {
+  background-color: rgba(200, 0, 22, 0.16);
+  color: #c80016;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 3.1rem;
+  width: 16rem;
+}
