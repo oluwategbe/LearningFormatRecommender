@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--bg);
+}
+/* ::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f5f1ff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+} */
+:root {
+  --primary-color: #8855ff;
+  --bg: #fff;
+  --secondary-bg: #f5f5f5;
+  --section-padding: 4rem 10%;
+  --celeb-bg: #fdf7ff;
+  --celeb-h3: #e9dbee;
+  --text-color-1: #4e4e4e;
+  --text-color-2: #fff;
+}
+@font-face {
+  font-family: "Azonix";
+  src: url("/fonts/Azonix.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Crackajack";
+  src: url("/fonts/Crackajack.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-color-1);
+  font-family: "Azonix";
+}
+button {
+  padding: 1rem;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.5s ease;
+}
+button:hover {
+  background: rgba(154, 110, 255, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3 {
+  text-align: center;
+}
+p {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: justify;
+}
+ul {
+  list-style: none;
+}
+.scrollTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: var(--primary-color);
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.scrollTop:hover {
+  transform: scale(1.2);
+}
+.scrollTop svg {
+  color: black;
+}
