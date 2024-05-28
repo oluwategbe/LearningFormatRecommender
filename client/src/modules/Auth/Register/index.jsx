@@ -42,7 +42,7 @@ const Register = () => {
     setFormData(initialFormData);
     setTimeout(() => {
       navigate(PublicPaths.LOGIN);
-    }, 5000);
+    }, 3000);
   }
   if (isError) {
     reset();
