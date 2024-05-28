@@ -1,0 +1,41 @@
+.topbar {
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #262626;
+  color: white;
+}
+.left {
+  display: flex;
+  gap: 2rem;
+}
+.left a {
+  font-size: 10px;
+  font-weight: 500;
+  color: inherit;
+}
+.right {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.right p {
+  font-size: 10px;
+  font-weight: 500;
+}
+.language {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.language img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.language svg {
+  cursor: pointer;
+  /* font-size: 15px; */
+}

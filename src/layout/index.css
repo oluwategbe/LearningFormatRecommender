@@ -1,0 +1,8 @@
+.userLayout {
+  display: flex;
+  flex-direction: column;
+}
+.userChildren {
+  min-height: 80vh;
+  background: #f2f3f8;
+}

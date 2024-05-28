@@ -1,0 +1,103 @@
+.footer {
+  padding: 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: white;
+  background: #262626;
+}
+.footer p {
+  font-size: 10px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  align-items: flex-start;
+}
+.top > img {
+  object-fit: cover;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  flex: 2.5;
+}
+.search {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+.input {
+  padding: 1.2rem;
+  background: white;
+  color: #000;
+  font-size: 10px;
+  flex: 5;
+}
+.btn {
+  padding: 1.2rem;
+  background: #c80016;
+  color: white;
+  flex: 1;
+}
+.check {
+  display: flex;
+  gap: 10px;
+}
+.check input {
+  cursor: pointer;
+}
+.check a {
+  color: burlywood;
+  text-decoration: underline;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.download h2 {
+  font-size: 10px;
+}
+.download img {
+  margin-top: 0.8rem;
+  object-fit: cover;
+}
+.bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+}
+.follow {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.bottom h2 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.social {
+  display: flex;
+  gap: 15px;
+}
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.media svg {
+  color: #262626;
+}
+.media svg:hover {
+  color: #c80016;
+}

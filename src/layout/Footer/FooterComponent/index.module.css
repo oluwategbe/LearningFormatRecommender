@@ -1,0 +1,18 @@
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.footerLinks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footerLinks a {
+  font-size: 10px;
+  color: inherit;
+}
+.footerLinks a:hover {
+  color: #c80016;
+}
