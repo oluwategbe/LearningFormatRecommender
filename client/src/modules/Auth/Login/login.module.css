@@ -8,7 +8,7 @@
   background-image: url("../../../assets/two-girls.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 50%;
   position: relative;
 }
 
@@ -29,6 +29,7 @@
 .sectionTwo {
   background-color: #ffffff;
   padding: 2rem 5rem;
+  width: 50%;
 }
 
 .lotusLogo {
@@ -54,11 +55,11 @@
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
   color: #000000;
-  /* padding-left: 2rem; */
   margin-bottom: 1rem;
   padding: 0.5em 2rem;
+  text-align: center;
 }
 
 .inputBlock {
@@ -164,7 +165,7 @@ Button.loginBtn {
 }
 
 Button.signupBtn {
-  background-color: rgba(200, 0, 22, 0.16);
+  background: rgb(158, 82, 91);
   color: #c80016;
   font-family: Montserrat;
   font-size: 16px;
@@ -174,49 +175,6 @@ Button.signupBtn {
   cursor: pointer;
   border-radius: 5px;
   height: 3.1rem;
-}
-
-.altLinksSection {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.altLinksSection p {
-  align-self: center;
-  font-family: Montserrat;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 15px;
-  letter-spacing: 0em;
-}
-
-.altLinksContainer {
-  display: flex;
-  justify-content: space-between;
-  padding: 0rem 5rem 0rem 2rem;
-}
-
-.altLinks {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.altLinks img {
-  width: 37px;
-  height: 37px;
-}
-
-.altLinks span {
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #3a3a3a;
 }
 
 /* TAB STYLES */

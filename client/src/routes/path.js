@@ -12,7 +12,6 @@ export const PublicPaths = {
 
 export const PrivatePaths = {
   DASHBOARD: "/app/dashboard",
-  UserHotDeals: "/app/hot-deals",
-  UserContact: "/app/contact",
-  UserBecomeSeller: "/app/become-a-seller",
+  ABOUT: "/app/about",
+  CONTACT: "/app/contact",
 };

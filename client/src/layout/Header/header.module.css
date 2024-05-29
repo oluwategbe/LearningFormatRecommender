@@ -1,36 +1,39 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #262626;
+  color: white;
   padding: 2rem 5rem;
   gap: 2rem;
 }
 
 .top {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   gap: 1.5rem;
+  width: 100%;
+}
+.top a {
+  text-decoration: none;
+  color: white;
 }
 
 .childContainer {
   display: flex;
   flex-direction: column;
-  /* position: relative; */
 }
 
 .child {
-  /* position: absolute; */
-  /* bottom: -2rem; */
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
   background: white;
-  color: black;
+  color: white;
 }
 
 .child ul li a {
-  color: black !important;
+  color: white !important;
 }
 
 .links {
@@ -38,7 +41,8 @@
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  gap: 2rem;
+  /* width: 100%; */
 }
 
 ul li {
@@ -46,12 +50,10 @@ ul li {
   flex-direction: column;
   list-style: none;
   justify-content: center;
-  /* height: 3rem; */
   cursor: pointer;
   color: inherit;
   padding: 0.7rem;
   text-transform: uppercase;
-  /* align-items: center; */
 }
 
 ul li a {
@@ -60,7 +62,7 @@ ul li a {
   text-decoration: none;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -75,7 +77,7 @@ ul li span {
   text-decoration: none;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 13px;
 }
 
@@ -90,7 +92,7 @@ ul li span svg {
 }
 
 ul li:hover {
-  background: rgba(233, 108, 114, 0.09);
+  background: rgba(253, 253, 253, 0.09);
   border-radius: 40px;
 }
 
@@ -130,14 +132,14 @@ ul .active span {
   justify-content: center;
   padding: 7px;
   position: relative;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .circle svg {
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 .profile p {

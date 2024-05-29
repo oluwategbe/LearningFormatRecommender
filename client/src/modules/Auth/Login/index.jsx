@@ -79,13 +79,14 @@ const Login = () => {
       </section>
       <section className={login.sectionTwo}>
         <div className={login.lotusLogo}>
-          <img src={lotus} alt="Lotushop logo" />
+          {/* <img src={lotus} alt="Lotushop logo" /> */}
+          <h3>Learning Format Recommender</h3>
         </div>
 
         <div className={login.loginContainer}>
           <p className={login.loginText}>
-            Welcome back, Please <br />
-            Login to continue.
+            Welcome back, <br />
+            Please Login to continue.
           </p>
         </div>
 
@@ -161,22 +162,6 @@ const Login = () => {
               />
             </div>
           </FormGroup>
-        </div>
-
-        <div className={login.altLinksSection}>
-          <p>Or login with</p>
-
-          <div className={login.altLinksContainer}>
-            <a href="/facebook" className={login.altLinks}>
-              <img src={facebook} alt="Facebook logo" />
-              <span>Facebook</span>
-            </a>
-
-            <a href="/google" className={login.altLinks}>
-              <img src={google} alt="Google logo" />
-              <span>Google</span>
-            </a>
-          </div>
         </div>
       </section>
     </div>

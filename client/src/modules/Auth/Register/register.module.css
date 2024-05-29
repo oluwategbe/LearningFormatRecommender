@@ -41,7 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .registerContainer {
@@ -52,7 +52,8 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 0 2rem;
+  text-align: center;
+  align-items: center;
 }
 
 .signupText h3 {
@@ -60,27 +61,6 @@
   font-weight: 500;
   text-align: left;
   color: #000000;
-}
-
-.linkBlock {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  padding: 0.3rem 2rem;
-}
-
-.agreement {
-  display: flex;
-  gap: 4px;
-  font-size: 16px;
-  color: #757575;
-}
-
-.terms {
-  font-size: 16px;
-  color: #0266d5;
 }
 
 .btnsContainer {

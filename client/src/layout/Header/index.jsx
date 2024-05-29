@@ -27,7 +27,8 @@ const Header = ({ name }) => {
     <div className={style.header}>
       <div className={style.top}>
         <Link to="/app/dashboard">
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
+          <h4>Learning Format Recommender</h4>
         </Link>
         <ul className={style.links}>
           {userLinks?.map((item, i) => (
@@ -87,52 +88,7 @@ const Header = ({ name }) => {
             </div>
           </Link>
         </ul>
-        <Link to="/app/wishlist">
-          <div
-            className={`${style["profile"]} ${
-              name === "Wishlist" ? style.activeP : undefined
-            }
-  `}
-          >
-            <div className={style.circle}>
-              <div className={style.noti}>0</div>
-              <GoHeartFill />
-            </div>
-          </div>
-        </Link>
-        <Link to="/app/cart">
-          <div
-            className={`${style["profile"]} ${
-              name === "Cart" ? style.activeP : undefined
-            }
-  `}
-          >
-            <div className={style.circle}>
-              <div className={style.noti}>0</div>
-              <BsCartFill />
-            </div>
-          </div>
-        </Link>
       </div>
-      {/* <div className={style.bottom}>
-        <div className={style.shop}>
-          <IoMenuOutline />
-          <p>SHOP BY CATEGORIES</p>
-        </div>
-        <div className={style.search}>
-          <div className={style.drop}>
-            <p>All categories</p>
-            <FaCaretDown />
-          </div>
-          <input type="text" name="" id="" className={style.input}></input>
-          <div className={style.btn}>
-            <p>Search</p>
-          </div>
-        </div>
-        <div className={style.sales}>
-          <p>BLACK FRIDAY SALES</p>
-        </div>
-      </div> */}
     </div>
   );
 };

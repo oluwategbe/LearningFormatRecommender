@@ -10,7 +10,8 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <div className={style.top}>
-        <img src={logo} alt="logo" />
+        {/* <img src={logo} alt="logo" /> */}
+        <h4>Learning Format Recommender</h4>
         <div className={style.sub}>
           <p>
             Subscribe to our newsletter to get updates on our latest offers!

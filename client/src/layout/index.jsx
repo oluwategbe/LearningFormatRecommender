@@ -7,7 +7,7 @@ import Footer from "./Footer";
 const Layout = ({ children, name }) => {
   return (
     <div className="userLayout">
-      <Topbar />
+      {/* <Topbar /> */}
       <Header name={name} />
       <div className="userChildren">{children}</div>
       <Footer />

@@ -77,11 +77,12 @@ const Register = () => {
         </section>
         <section className={register.sectionTwo}>
           <div className={register.lotusLogo}>
-            <img src={lotus} alt="Lotushop logo" />
+            {/* <img src={lotus} alt="Lotushop logo" /> */}
+            <h3>Learning Format Recommender</h3>
           </div>
           <div className={register.registerContainer}>
             <div className={register.signupText}>
-              <h3>Sign up for an Account</h3>
+              <h4>Sign up for an Account</h4>
               <p>Let's get you all set up!</p>
             </div>
             <div className={register.tabContent}>
@@ -170,24 +171,6 @@ const Register = () => {
                   validationHandler={validationHandler}
                   size="large"
                 />
-
-                <div className={register.linkBlock}>
-                  <input
-                    type="checkbox"
-                    id="seller-check"
-                    className={register.check}
-                    name="check"
-                    value="check"
-                    required={false}
-                  />
-
-                  <span className={register.agreement}>
-                    I have read and accepted the
-                    <Link to=":" className={register.terms}>
-                      terms and conditions
-                    </Link>
-                  </span>
-                </div>
 
                 <Button
                   title="Create Account"
