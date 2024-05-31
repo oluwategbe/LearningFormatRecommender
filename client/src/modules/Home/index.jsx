@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "./../../layout/index";
+import "./index.module.css";
 
 const Home = () => {
   return (

@@ -31,28 +31,28 @@ body {
 }
 @font-face {
   font-family: "Azonix";
-  src: url("/fonts/Azonix.otf") format("opentype");
+  src: url("/public/fonts/Azonix.otf") format("opentype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Crackajack";
-  src: url("/fonts/Crackajack.otf") format("opentype");
+  src: url("/public/fonts/Crackajack.otf") format("opentype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Quicksand";
-  src: url("/fonts/Quicksand-Regular.otf") format("opentype");
+  src: url("/public/fonts/Quicksand-Regular.otf") format("opentype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Quicksand";
-  src: url("/fonts/Quicksand-Italic.otf") format("opentype");
+  src: url("/public/fonts/Quicksand-Italic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: "Quicksand";
-  src: url("/fonts/Quicksand-Bold.otf") format("opentype");
+  src: url("/public/fonts/Quicksand-Bold.otf") format("opentype");
   font-weight: 700;
 }
 .logo {
@@ -90,11 +90,16 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
+h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
 h3 {
+  font-size: 14px;
   text-align: center;
 }
 p {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 30px;
   text-align: justify;
 }

@@ -8,6 +8,10 @@ const privateRoutes = [
     path: "dashboard",
     element: lazy(() => import("../modules/Home")),
   },
+  {
+    path: "about",
+    element: lazy(() => import("../modules/About")),
+  },
 ];
 function User() {
   const { user } = useContext(AuthContext);

@@ -15,12 +15,6 @@ const BaseRoutes = [
     useAuth: true,
   },
   {
-    path: `${BasePaths.ADMIN}/*`,
-    exact: true,
-    component: lazy(() => import("./AdminRouter")),
-    useAuth: true,
-  },
-  {
     path: "*",
     exact: false,
     component: lazy(() => import("../modules/NotFound")),
